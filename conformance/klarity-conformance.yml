@@ -1,0 +1,43 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.klarity.ai/legal/trust-and-safety
+description: >-
+  Standards and compliance posture Klarity publishes. Klarity Architect is a
+  SaaS application with no public developer API, so there is no OpenAPI to
+  derive protocol-level conformance from; the entries below are limited to what
+  Klarity states publicly on its Trust & Safety, CCPA, privacy and SSO
+  documentation. Anything not published is recorded as unknown rather than
+  asserted.
+standards:
+  - id: soc2-type-ii
+    conforms: true
+    evidence: >-
+      Trust & Safety page states SOC 2 Type II verified through independent
+      audit with continuous monitoring; report available via trust.klarity.ai.
+  - id: gdpr
+    conforms: true
+    evidence: Trust & Safety page and privacy policy state GDPR compliance.
+  - id: ccpa
+    conforms: true
+    evidence: Dedicated CCPA notice at https://www.klarity.ai/legal/ccpa.
+  - id: saml-2.0
+    conforms: true
+    evidence: >-
+      Self-serve SSO setup wizard documents SAML integration with enterprise
+      IdPs (Okta SAML given as the worked example) —
+      https://www.klarity.ai/docs/user-docs/admin/sso-setup.
+  - id: iso-27001
+    conforms: unknown
+    evidence: Not claimed on any public Klarity page at capture time.
+  - id: hipaa
+    conforms: unknown
+    evidence: Not claimed on any public Klarity page at capture time.
+  - id: pci-dss
+    conforms: false
+    evidence: Not applicable — Klarity is not a payments provider.
+  - id: oauth2
+    conforms: unknown
+    evidence: No public API or OAuth surface is documented.
+  - id: rfc9457-problem-details
+    conforms: unknown
+    evidence: No public API specification published.

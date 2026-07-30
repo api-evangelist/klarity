@@ -1,0 +1,35 @@
+generated: '2026-07-19'
+method: searched
+description: >-
+  Results of probing the /.well-known/ discovery surface for every host Klarity
+  publishes (the marketing/docs host www.klarity.ai, the apex klarity.ai which
+  redirects to www, and the api.klarity.ai host that resolves but answers 404 at
+  the root). Klarity ships no public developer API, and no /.well-known/
+  document was served on any host at probe time. Status is the HTTP code
+  observed at fetch time; an empty result is a valid, recorded outcome.
+hosts:
+  - host: https://www.klarity.ai
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404
+      - path: /.well-known/ai-plugin.json
+        status: 404
+  - host: https://klarity.ai
+    note: Redirects to https://www.klarity.ai.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+notes:
+  - >-
+    api.klarity.ai resolves and answers HTTP 404 at the root; Klarity publishes
+    no API reference, authentication guide, or webhook catalog, so no base URL
+    was recorded in apis.yml.
+  - >-
+    Klarity does publish an llms.txt for its documentation at
+    https://www.klarity.ai/docs/llms.txt (captured verbatim in llms/).

@@ -1,0 +1,37 @@
+# Klarity
+
+> Documentation for Klarity Architect — AI-powered business process intelligence.
+
+## Docs
+
+- [Custom use cases](https://klarity.ai/docs/custom-use-cases.md): Tailor Klarity Architect beyond the standard flow — shape AI behavior, build custom templates, and set your own standards.
+- [Audit & compliance](https://klarity.ai/docs/custom-use-cases/audit-compliance.md): Turn a walkthrough of how a process runs into audit-ready documentation — steps, risks, controls, and gaps — and monitor drift from an approved standard over time.
+- [Automation assessment](https://klarity.ai/docs/custom-use-cases/automation-assessment.md): Analyze a captured process and surface where automation pays off — with recommendations, estimated ROI, and implementation difficulty — so you prioritize with evidence.
+- [Process documentation (SOPs & PDDs)](https://klarity.ai/docs/custom-use-cases/documentation-sops.md): Produce step-by-step SOPs and higher-level PDDs from a real capture — documentation that reflects how work actually happens and stays current as it changes.
+- [Klarity for project management & SDLC teams](https://klarity.ai/docs/custom-use-cases/sdlc-pmo.md): An advanced use case for PMO and SDLC delivery teams: source requests, scope requirements, and deliver — with Klarity gathering inputs and generating the artifacts at each stage.
+- [Klarity - User Support & Enablement Articles](https://klarity.ai/docs/home.md): Learn how to capture, structure, and improve your processes with Klarity Architect.
+- [How to add a user to your workspace](https://klarity.ai/docs/user-docs/admin/add-a-user-to-your-workspace.md): Invite teammates to your Klarity workspace, assign roles, and resolve common errors.
+- [SSO configuration guide for new customers](https://klarity.ai/docs/user-docs/admin/sso-setup.md): Set up Single Sign-On for your organisation using Klarity's self-serve, guided setup wizard.
+- [Fine-Grained Access Control of Process Index](https://klarity.ai/docs/user-docs/advanced/fine-grained-access-control.md): Control who can see and work on each value stream in your process index using Teams.
+- [Refining the context store (when, why, how)](https://klarity.ai/docs/user-docs/advanced/refining-the-context-store.md): A practical guide to tuning an already-set-up Context Store safely — when to revisit it, why it matters, and how to avoid wide-blast-radius mistakes.
+- [Tailoring Klarity for non-standard use cases](https://klarity.ai/docs/user-docs/advanced/tailoring-for-non-standard-use-cases.md): Use the Context Store and custom templates to shape AI behavior and build repeatable workflows — without custom development.
+- [Set your process standard (UDS)](https://klarity.ai/docs/user-docs/advanced/using-a-user-defined-standard.md): Pin an approved standard for a process with a _UDS document or node, and let Advisor compare observed work against it.
+- [Using and editing templates](https://klarity.ai/docs/user-docs/advanced/using-and-editing-templates.md): Control how Klarity captures and presents process information — the output structure and how the AI Interviewer behaves — using the Templates Editor.
+- [Capturing current state — quick reference guide](https://klarity.ai/docs/user-docs/discover/capturing-current-state.md): The three ways to document your current-state processes in Klarity, and when to use each.
+- [Best practices for narration and pacing](https://klarity.ai/docs/user-docs/discover/narration-and-pacing.md): How to narrate and pace your work during a Companion session for richer, more accurate process capture.
+- [Running your first Companion session](https://klarity.ai/docs/user-docs/discover/running-your-first-companion-session.md): Launch your first Klarity Companion session — from getting access to seeing your work show up in the Process Index.
+- [Supported file types, size limits, and password-protected files](https://klarity.ai/docs/user-docs/discover/supported-file-types.md): Make sure your files are supported, within size limits, and unencrypted before processing.
+- [Upload current state materials](https://klarity.ai/docs/user-docs/discover/upload-current-state-materials.md): Use Discovery and the AI Interviewer to represent your current-state processes with minimal effort.
+- [Getting started & what to expect](https://klarity.ai/docs/user-docs/getting-started.md): How Klarity works, what your journey looks like, and where to go next.
+- [Advisor: analyze thousands of processes in minutes](https://klarity.ai/docs/user-docs/improve/advisor-analyze-processes.md): Query and analyze your entire Process Index with Klarity Advisor to surface data-driven insights.
+- [Using files with Advisor queries](https://klarity.ai/docs/user-docs/improve/advisor-file-upload.md): Attach a document to an Advisor query so it's used as private context for that analysis.
+- [Advisor agent: prompt library](https://klarity.ai/docs/user-docs/improve/advisor-prompt-library.md): Ready-to-use prompt templates for Klarity Advisor, organized by persona and use case.
+- [Strategic analysis with Advisor](https://klarity.ai/docs/user-docs/improve/strategic-analysis-with-advisor.md): Use Advisor to reason across your entire Process Index — find your biggest opportunities, prioritize them, and build the roadmap.
+- [Using AI Chat](https://klarity.ai/docs/user-docs/improve/using-ai-chat.md): Ask questions, edit and reorganize your processes, and reach support — all from Klarity's in-platform AI Chat.
+- [Getting started: navigating your Process Index](https://klarity.ai/docs/user-docs/structure/navigating-your-process-index.md): How to access, view, filter, and explore your Process Index in Klarity Architect.
+- [Process Index: a deeper dive](https://klarity.ai/docs/user-docs/structure/process-index-deeper-dive.md): Build and manage a multi-level process library, from value streams down to individual activities.
+- [Corrupted or broken uploads](https://klarity.ai/docs/user-docs/troubleshooting/corrupted-uploads.md): What to do when Klarity can't process an uploaded file — likely causes and how to recover.
+- [Troubleshooting: enhancing your Klarity outputs](https://klarity.ai/docs/user-docs/troubleshooting/enhancing-your-outputs.md): Improve the quality of your Klarity Analyst outputs when results aren't meeting expectations.
+- [Re-running Companion when a session fails](https://klarity.ai/docs/user-docs/troubleshooting/re-running-companion.md): If a Companion session paused, disconnected, or seems to have captured nothing, here's how to recover it — and why you often don't need to re-run.
+- [How to retry a failed Architect run](https://klarity.ai/docs/user-docs/troubleshooting/retry-a-failed-run.md): Diagnose and recover from failed, aborted, or timed-out Architect runs.
+- [Why your video upload shows 'No audio detected'](https://klarity.ai/docs/user-docs/troubleshooting/video-no-audio-detected.md): Fix the 'No audio track detected' error when generating an SOP from a video upload.
