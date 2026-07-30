@@ -1,21 +1,54 @@
 aid: klarity
 name: Klarity
-description: Klarity is a company surfaced as a portfolio company of 500-global, scale-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Klarity is an enterprise AI company behind Klarity Architect, the "Enterprise
+  Instinct Platform" — a Context Graph that captures how work actually happens
+  inside a large organization and turns it into a living operational digital
+  twin. The platform runs in three phases: Discover (an AI Companion that
+  observes work, an AI Interviewer, and bulk file upload capture documented and
+  undocumented processes), Structure (AI mapping organizes what it finds into a
+  multi-level, role-aware Process Index from value streams down to individual
+  activities), and Improve (an Advisor agent surfaces ROI-ranked recommendations
+  and Signals detect drift from an approved standard). Klarity is used for
+  finance, IT, GTM, HR and operations transformation, audit and compliance
+  documentation, automation assessment, and SOP/PDD generation, with customers
+  including DoorDash, Stripe, Salesforce and Uber. The product is delivered as a
+  SaaS workspace with SAML SSO and fine-grained access control; Klarity
+  publishes user documentation and an llms.txt index but no public developer
+  API, SDKs, or webhook surface at the time of this profile.
 url: https://raw.githubusercontent.com/api-evangelist/klarity/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://klarity.ai/api/og?title=Transforming%20Transformation.&description=The%20Enterprise%20Instinct%20Platform.%20Discover.%20Structure.%20Improve.
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 - scale-venture-partners
-x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier: profiled
+x-tier-reason: enrichment-pipeline
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Business Process Management
+- Process Intelligence
+- Enterprise Software
+- Document Automation
+- Finance
+- Governance Risk and Compliance
+- Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +56,44 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/klarity-domain-security.yml
 - type: Website
-  url: https://klarity-analytics.com
+  url: https://www.klarity.ai
+- type: Documentation
+  url: https://www.klarity.ai/docs/home
+- type: GettingStarted
+  url: https://www.klarity.ai/docs/user-docs/getting-started
+- type: Blog
+  url: https://www.klarity.ai/resources/blog
+- type: Guides
+  url: https://www.klarity.ai/resources/guides
+- type: SignUp
+  url: https://www.klarity.ai/request-demo
+- type: Login
+  url: https://app.klarity.ai/
+- type: Partners
+  url: https://www.klarity.ai/partners
+- type: About
+  url: https://www.klarity.ai/about
+- type: Careers
+  url: https://www.klarity.ai/careers
+- type: TermsOfService
+  url: https://www.klarity.ai/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.klarity.ai/legal/privacy-policy
+- type: Compliance
+  url: https://www.klarity.ai/legal/trust-and-safety
+- type: TrustCenter
+  url: https://trust.klarity.ai/
+- type: LLMsTxt
+  url: llms/klarity-llms.txt
+- type: WellKnown
+  url: well-known/klarity-well-known.yml
+- type: Conformance
+  url: conformance/klarity-conformance.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
