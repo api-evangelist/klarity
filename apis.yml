@@ -39,6 +39,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.klarity.ai', status: 307, note: 'declared website redirects to https://www.within.ai/ — a different registrable domain (klarity.ai -> within.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://klarity.ai/api/og?title=Transforming%20Transformation.&description=The%20Enterprise%20Instinct%20Platform.%20Discover.%20Structure.%20Improve.
 x-type: company
 x-source: vc-portfolio
